@@ -1,0 +1,18 @@
+package com.qzh.hospital.mapper;
+
+import com.qzh.hospital.entity.Admin;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author qiuzihan
+ * @since 2024-07-01
+ */
+@Mapper
+public interface AdminMapper extends BaseMapper<Admin> {
+
+}
